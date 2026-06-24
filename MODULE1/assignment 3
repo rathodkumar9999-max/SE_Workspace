@@ -1,0 +1,42 @@
+1. Network Protocols: Full Forms & Uses
+-> HTTP (Hypertext Transfer Protocol): Used to transfer data (like text and images) over the web, though it sends data in plain text without encryption.
+
+-> HTTPS (Hypertext Transfer Protocol Secure): The secure version of HTTP that encrypts data transfers to protect sensitive information like passwords or credit cards.
+
+-> FTP (File Transfer Protocol): Used specifically for uploading, downloading, and transferring files between a client and a server over a network.
+
+-> SMTP (Simple Mail Transfer Protocol): The standard protocol used for sending and routing emails from an email client to a mail server.
+
+2. IPv4 vs. IPv6
+-> IPv4 uses a 32-bit numerical address format (e.g., 192.168.1.1) providing roughly 4.3 billion unique addresses, which the world has mostly run out of. IPv6 uses a 128-bit hexadecimal format (e.g., 2001:db8::ff00:42:8329), providing a virtually infinite number of unique addresses to accommodate all modern internet-connected devices.
+
+3. nslookup google.com Result
+-> Because I am an AI running in a cloud environment and do not have a standard local command-line interface, I can't run a live, real-time command on a physical local network. However, running a standard DNS lookup for google.com generally resolves to its primary IPv4 and IPv6 Anycast addresses.
+
+-> Depending on the network location, it typically returns:
+
+-> IPv4 Address: 142.250.183.46 (or similar addresses in the 142.250.x.x range)
+
+-> IPv6 Address: 2404:6800:4009:830::200e
+
+4. HTTP Status Codes Explained
+-> (200) OK: The request was successful, and the server delivered the expected data.
+
+-> (301) Moved Permanently: The requested URL has been permanently assigned a new address, and the browser should redirect there.
+
+-> (403) Forbidden: The server understands your request, but you do not have permission or authorization to access the resource.
+
+-> (404) Not Found: The server cannot find the requested webpage or file; it either doesn’t exist or the URL was mistyped.
+
+-> (500) Internal Server Error: A generic error message meaning something went wrong on the website's server side, preventing it from fulfilling the request.
+
+5. DNS Hierarchy Explained
+-> The Domain Name System (DNS) is organized like an inverted tree structure, reading from right to left to resolve an address. Here is how it breaks down using www.google.com (which technically ends with an invisible trailing dot www.google.com.):
+
+-> Root Level (.): The absolute top of the hierarchy. It doesn't have a name (represented by an empty string or the hidden dot at the very end) and directs requests to the correct Top-Level Domain (TLD) registry.
+
+-> TLD (Top-Level Domain) (.com): The next layer down, managed by specific registries. Common examples include .com, .org, or country codes like .in.
+
+-> Domain / Second-Level Domain (google): The unique name registered by an individual or organization under a specific TLD. In this case, google is the domain name.
+
+-> Subdomain (www): A subsection created under the main domain to organize different services. Here, www is a subdomain pointing to their primary web server (other examples could be maps.google.com or mail.google.com).

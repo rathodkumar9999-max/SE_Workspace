@@ -1,0 +1,24 @@
+1. The Three Main Layers of Software Architecture
+-> Presentation Layer (UI): The topmost layer that handles the user interface and translates tasks and results into something the user can easily see and interact with.
+
+-> Application Layer (Business Logic): The brain of the software that processes commands, makes logical decisions, and moves data between the presentation and data layers.
+
+-> Data Layer: The underlying repository (like a database or file system) where application information is securely stored, managed, and retrieved.
+
+2. Client vs. Server
+-> Client: The device or software application (like your laptop or a web browser) that requests a service, data, or action.
+
+-> Server: The powerful computer or system that listens for those requests, processes them, and delivers the appropriate data or service back to the client.
+
+-> Real-Life Example: Think of ordering food at a restaurant. You (the customer) are the client placing an order, and the kitchen is the server that prepares your food and sends it back out to you.
+
+3. Differences: Desktop, Web, and Mobile Apps
+-> Feature	Desktop Apps	Web Apps	Mobile Apps
+-> Installation & Access	Installed directly onto a laptop or PC operating system (Windows, macOS).	Accessed instantly via a web browser over the internet; no installation needed.	Downloaded and installed directly onto a smartphone or tablet via an app store.
+-> Offline Functionality	Usually fully functional offline without requiring an active internet connection.	Heavily dependent on internet connectivity; functionality is highly limited offline.	Can offer extensive offline features, leveraging device hardware seamlessly.
+4. Database Types
+-> MySQL: SQL (Relational)
+
+-> MongoDB: NoSQL (Non-Relational / Document-based)
+
+-> PostgreSQL: SQL (Relational)

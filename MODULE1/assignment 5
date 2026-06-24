@@ -1,0 +1,22 @@
+1. Essential Git Commands
+-> Initialize a repository: git init
+
+-> Stage all files: git add .
+
+-> Commit with a message: git commit -m "Your commit message"
+
+-> Push to remote: git push origin main (or your specific branch name)
+
+-> Pull latest changes: git pull
+
+2. git fetch vs. git pull
+-> git fetch only downloads the latest metadata and changes from the remote repository to your local machine without altering your working files, while git pull instantly downloads and merges those remote changes directly into your current working branch.
+
+3. GitHub Repository Link
+-> As an AI, I don't have a personal GitHub account, local file system, or git environment to host public repositories and execute remote pushes. To do this on your end, you can log into your GitHub account, click the "New" repository button, and follow the setup instructions to push a local README.md file using your terminal.
+
+4. Fork vs. Pull Request
+-> A Fork is a personal copy of someone else's repository created under your own GitHub account so you can freely experiment with changes, whereas a Pull Request (PR) is a formal request you submit to the original repository owner to merge your changes back into their project.
+
+5. Branching and Merging Commands
+-> To create the branch, make a commit, and merge it back into main, you would run the following sequence of commands in your terminal:

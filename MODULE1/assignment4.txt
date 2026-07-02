@@ -1,0 +1,45 @@
+Here are the answers to your Software Development Life Cycle (SDLC) and Agile questions:
+
+## 1. Six Phases of SDLC (in order)
+
+* **Planning:** Defining project goals, scope, feasibility, and resource requirements.
+* **Analysis:** Gathering and documenting detailed functional and technical requirements from stakeholders.
+* **Design:** Creating the system architecture, user interface, and database schemas based on the requirements.
+* **Implementation (Coding):** Writing the actual source code and building the software system.
+* **Testing:** Verifying the software for bugs, defects, and ensuring it meets the defined requirements.
+* **Deployment & Maintenance:** Releasing the software to production and providing ongoing updates, fixes, and support.
+
+---
+
+## 2. Agile vs. Waterfall Model
+
+| Feature | Waterfall Model | Agile Model |
+| --- | --- | --- |
+| **Approach** | Linear and sequential; each phase must finish before the next begins. | Iterative and incremental; development happens in short, repeatable cycles. |
+| **Flexibility** | Highly rigid; changing requirements midway is difficult and expensive. | Highly flexible; easily accommodates changing requirements at any stage. |
+| **Delivery** | The final product is delivered all at once at the very end of the project. | Working software is delivered in small, functioning increments throughout the project. |
+
+---
+
+## 3. The 3 Main Scrum Roles
+
+* **Product Owner:** Responsible for maximizing the value of the product by managing and prioritizing the Product Backlog.
+* **Scrum Master:** Responsible for establishing Scrum practices, clearing roadblocks, and coaching the team.
+* **Developers (Dev Team):** Responsible for doing the actual hands-on work to deliver a shippable increment of product each Sprint.
+
+---
+
+## 4. What is a Sprint?
+
+In Scrum, a **Sprint** is a time-boxed iteration during which a specific, planned set of work must be completed and made ready for review.
+
+* **Typical Duration:** Usually **1 to 4 weeks**, with 2 weeks being the most common industry standard.
+
+---
+
+## 5. Jira Board Columns Explained
+
+* **Backlog:** A holding area for all project tasks, user stories, and bugs that need to be done in the future but aren't active yet.
+* **To Do:** Tasks that have been selected for the current cycle (or Sprint) but work has not yet started on them.
+* **In Progress:** Tasks that are currently being actively worked on by a team member.
+* **Done:** Tasks that are fully completed, tested, and meet the project's "Definition of Done."
